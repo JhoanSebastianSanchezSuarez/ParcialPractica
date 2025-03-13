@@ -1,5 +1,16 @@
+:root {
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +22,126 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.LoginPage {
+  background-image: url(https://images.unsplash.com/photo-1534289692684-c02577d5560d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0px;
+  align-content: center;
+  justify-content: center;
+}
+
+.LoginBox{
+  max-height: 60%;
+  max-width: 40%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+
+.FormGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px; 
+}
+
+.passwordContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.customInput {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.passwordToggle {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+button{
+  background-color: #1084E3;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.Texto1{
+  font-size: 20px;
+  font-weight: bold;
+  color: darkslategrey;
+  padding-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  color: darkslategrey;
+  padding-bottom: 10px;
+}
+
+input {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 8px 5px;
+}
+
+.alerta{
+  font-size: 10px;
+  color: darkslategrey;
+}
+
+.Cycling {
+  background-image: url(https://aiguajoc.com/wp-content/uploads/Beneficios-de-practicar-el-cycling-AIGUAJOC.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.Running {
+  background-image: url(https://www.sundried.com/cdn/shop/articles/c27ddca5b9550a6940dfef2581b6c38d_f59aec9d-8d42-4e9d-9d18-5e8d847d1657_1100x.jpg?v=1740663257);
+  background-size: cover;
+  background-position: center;
+}
+
+.Swimming {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDavERToNL9UJnTtDaNWunJYKSfvNUQAN3_Q&s);
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  justify-self: center;
+}
+
+.col-md-6{
+  padding-bottom: 20px;
+}
+
+#bottom {
+  width: 100%;
+  background-color: darkgreen;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+
